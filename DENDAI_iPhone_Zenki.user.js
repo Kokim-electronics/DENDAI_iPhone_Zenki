@@ -10,6 +10,11 @@
 // @downloadURL  https://github.com/Kokim-electronics/DENDAI_iPhone_Zenki/blob/main/DENDAI_iPhone_Zenki.user.js
 // ==/UserScript==
 
+var midoku = document.getElementsByClassName('ui-link ui-btn ui-tabs-anchor')[2];
+if (midoku != undefined) {
+    midoku.click();
+}
+
 document.querySelectorAll("table")[0].remove();
 document.querySelectorAll(".gakkiNendoArea")[0].remove();
 document.getElementById('pmPage:funcForm:j_idt88:0:j_idt127').remove();

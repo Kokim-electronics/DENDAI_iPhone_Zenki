@@ -15,9 +15,14 @@ if (midoku != undefined) {
     midoku.click();
 }
 
-document.querySelectorAll("table")[0].remove();
-document.querySelectorAll(".gakkiNendoArea")[0].remove();
-document.getElementById('pmPage:funcForm:j_idt88:0:j_idt127').remove();
-document.getElementById('pmPage:funcForm:j_idt88:0:j_idt128').remove();
-document.getElementById('pmPage:funcForm:j_idt88:0:j_idt156').remove();
-document.getElementById('pmPage:funcForm:j_idt88:1:j_idt89').remove();
+window.onload = function () {
+   var today = new Date();
+    if (9 <= (today.getMonth()+1)) {
+        document.querySelectorAll("table")[0].remove();
+        document.querySelectorAll(".gakkiNendoArea")[0].remove();
+        document.getElementById('pmPage:funcForm:j_idt88:0:j_idt127').remove();
+        document.getElementById('pmPage:funcForm:j_idt88:0:j_idt128').remove();
+        document.getElementById('pmPage:funcForm:j_idt88:0:j_idt156').remove();
+        document.getElementById('pmPage:funcForm:j_idt88:1:j_idt89').remove();
+    }
+}

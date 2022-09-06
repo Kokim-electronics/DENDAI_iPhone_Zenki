@@ -6,8 +6,8 @@
 // @author       @kk_electro_0303
 // @match        https://portal.sa.dendai.ac.jp/*
 // @icon         https://www.dendai.ac.jp/common/images/global/favicon.ico
-// @updateURL    
-// @downloadURL  
+// @updateURL    https://github.com/Kokim-electronics/DENDAI_iPhone_Zenki/blob/main/DENDAI_iPhone_Zenki.user.js
+// @downloadURL  https://github.com/Kokim-electronics/DENDAI_iPhone_Zenki/blob/main/DENDAI_iPhone_Zenki.user.js
 // ==/UserScript==
 
 document.querySelectorAll("table")[0].remove();
